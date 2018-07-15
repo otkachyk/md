@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  patient: one
+  diagnosis: MyString
+  complaints: MyString
+  previous_diseases: MyString
+  progressive_diseases: MyString
+  bite: MyString
+  dental_information: MyString
+  x_ray: MyString
+  color_vita: MyString
+  teaching_date: 2018-07-15
+  dental_hygiene_control_date: 2018-07-15
+
+two:
+  patient: two
+  diagnosis: MyString
+  complaints: MyString
+  previous_diseases: MyString
+  progressive_diseases: MyString
+  bite: MyString
+  dental_information: MyString
+  x_ray: MyString
+  color_vita: MyString
+  teaching_date: 2018-07-15
+  dental_hygiene_control_date: 2018-07-15

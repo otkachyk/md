@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  card: one
+  doctor: one
+  note: MyString
+
+two:
+  card: two
+  doctor: two
+  note: MyString
