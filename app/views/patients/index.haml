@@ -1,0 +1,5 @@
+=link_to 'Root', root_path
+.patients
+  - @patients.each do |patient|
+    .patients--item
+      = link_to patient.full_name, patient_path(patient)

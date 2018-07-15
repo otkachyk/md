@@ -1,0 +1,30 @@
+= link_to 'Root', root_path
+.form
+  = form_for @patient, html: { class: 'form--block' } do |f|
+    = f.label :last_name, "Прізвище"
+    = f.text_field :last_name
+
+    = f.label :first_name, "Ім'я"
+    = f.text_field :first_name
+
+    = f.label :middle_name, "По-батькові"
+    = f.text_field :middle_name
+
+    = f.label :gender, 'Стать'
+    %span
+      Male
+      = f.radio_button :gender, 'male'
+    %span
+      Female
+      = f.radio_button :gender, 'female'
+    .form--block-select
+      = f.label :birth_date, 'Дата народження'
+      = f.date_select :birth_date, start_year: 1920, end_year: Date.current.year
+
+    = f.label :telephone, 'Телефон'
+    = f.telephone_field :telephone
+
+    = f.label :living_place, 'Місце проживання'
+    = f.text_area :living_place
+
+    = f.submit
