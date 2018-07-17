@@ -1,0 +1,14 @@
+$namespace: ".form";
+
+#{$namespace} {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#{$namespace}--block {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
