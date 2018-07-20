@@ -1,0 +1,7 @@
+- @cards.each do |card|
+  Створено:
+  = card.created_at
+  Останнє оновлення:
+  = card.updated_at
+  = link_to 'Переглянути', patient_card_path(@patient, card)
+  = link_to 'Редагувати', edit_patient_card_path(@patient, card)

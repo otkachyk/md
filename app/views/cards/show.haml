@@ -1,0 +1,9 @@
+.cards
+  .cards--item
+    .cards--item-fields
+      ALL FIELDS
+    .cards--item-last_notes
+      3 LAST NOTES
+    = link_to "All notes", card_notes_path(@card)
+    .note
+      =link_to 'create note', new_card_note_path(@card)
